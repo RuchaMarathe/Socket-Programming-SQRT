@@ -1,0 +1,7 @@
+Follow the below steps to run the client and server programs:
+1: Start two terminals 
+2: on terminal 1 run make -f MakeSQRT ;this  will compile both client and server 
+3: On terminal 1 execute  ./sqrtserver (this command executes the server)
+4: On terminal 2 execute ./sqrtclient 127.0.01.1 __Number for which we want to find the square root__ 
+
+

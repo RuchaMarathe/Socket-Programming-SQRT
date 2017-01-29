@@ -1,0 +1,14 @@
+# _*_Makefile_*_
+
+#target: dependencies
+#	action
+
+all: SquareRootClient SquareRootServer
+
+SquareRootServer:
+	gcc  sqrtserver.c -o SquareRootServer -lm
+SquareRootClient:
+	gcc sqrtclient.c -o SquareRootClient
+
+clean: 
+	rm   SquareRootClient SquareRootServer
